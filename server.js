@@ -31,7 +31,7 @@ module.exports = port => {
         let uri = url.format({
             protocol: req.protocol,
             host: req.get('host'),
-            pathname: req.originalUrl,
+            pathname: req.originalUrl
         });
 
         res.status(200);
